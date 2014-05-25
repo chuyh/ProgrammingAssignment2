@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
   setinverse <- function(inverse) matrix_inverse <<- inverse ## adding the new inversed matrix variable to the global environment
   getinverse <- function() matrix_inverse ## retrieve the value of the latest version of inversed matrix
   
-  list(set=set, get=get, setinverse=setinverse, getinverse=getinverse)
+  list(set=set, get=get, setinverse=setinverse, getinverse=getinverse) #creating the list of functions
 }
 
 
